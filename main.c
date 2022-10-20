@@ -13,7 +13,7 @@ void zhuanhuan (int a,int b){
     do{
         q.data[++q.top]=a%b;
         a=a/b;
-    }while(a!=0);//当商不为0时进行循环
+    }while(a!=0);
 
     for(int i=q.top;i>=0;i--){
         printf("%d",q.data[i]);
