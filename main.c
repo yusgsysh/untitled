@@ -15,8 +15,8 @@ void zhuanhuan (int a,int b){
         a=a/b;
     }while(a!=0);
 
-    for(int i=q.top;i>=0;i--){
-        printf("%d",q.data[i]);
+    for(;q.top>=0;q.top--){
+        printf("%d",q.data[q.top]);
     }
 }
 
